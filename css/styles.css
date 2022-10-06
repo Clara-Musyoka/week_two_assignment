@@ -1,0 +1,12 @@
+#card_one{
+    margin-bottom: 20px;
+    width: 40%;
+    float: inline-start;
+    display: block;
+}
+
+#card_two{
+    margin-bottom: 20px;
+    width: 40%;
+    display: block;
+}
