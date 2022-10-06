@@ -8,3 +8,9 @@
   
   display: flex;
 }
+.footer {
+    text-align: center;
+    font-weight: bolder;
+    background-color: darkgray;
+  }
+  
