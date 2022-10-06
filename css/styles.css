@@ -1,12 +1,10 @@
-#card_one{
-    margin-bottom: 20px;
-    width: 40%;
-    float: inline-start;
-    display: block;
+#card_one,
+#card_two {
+    margin: 100px auto 0;
+  width: 40%;
 }
 
-#card_two{
-    margin-bottom: 20px;
-    width: 40%;
-    display: block;
+.main {
+  
+  display: flex;
 }
