@@ -1,47 +1,46 @@
 #card_one,
 #card_two {
-    margin: 100px auto 0;
+  margin: 100px auto 0;
   width: 40%;
 }
 
 .main {
-  
   display: flex;
 }
 .footer {
-    text-align: center;
-    font-weight: bolder;
-    background-color: darkgray;
-    margin: 
-  }
+  text-align: center;
+  font-weight: bolder;
+  background-color: darkgray;
+  margin: ;
+}
 
-  label {
-    display: block;
-    margin: 0.5rem 0;
-  }
-  input[type="submit"] {
-    display: block;
-    width: 60%;
-    margin: 1em auto;
-    height: 2em;
-    font-size: 1.1rem;
-    background-color: #3b3b4f;
-    border-color: white;
-    min-width: 300px;
-  }
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #3b3b4f;
+  border-color: white;
+  min-width: 300px;
+}
 
-  form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-    border: solid;
-background-color: #1b1b32;
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+  border: solid;
+  background-color: #1b1b32;
   color: #f5f6f7;
-  }
+}
 
-  .form-elements input{
+.form-elements input {
   margin: 10px 0 0 0;
   width: 100%;
   min-height: 2em;
@@ -50,9 +49,6 @@ background-color: #1b1b32;
   color: #ffffff;
 }
 #heading {
-    margin: 1em auto;
-    text-align: center;
-  }
-
-  
-  
+  margin: 1em auto;
+  text-align: center;
+}
