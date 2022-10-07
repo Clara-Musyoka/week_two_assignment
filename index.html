@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div id="heading">
         <h1>Akan's Name Generator</h1>
         <p>
           This website will do some pretty amazing things about generating your
@@ -25,7 +25,20 @@
         </p>
       </div>
       <div>
-        <p>Please fill out this form with the required information</p>
+        <p>Please fill out this form with the required information to find out your Akan Name!</p>
+        <form action="">
+            <fieldset class="form-elements">
+                <label for="year">Enter the year you were born: <input id="year" name="year" type="number" required placeholder="example 1990"/></label>
+            <label for="Month">Enter the Month you were born: <input id="month" name="month" type="number" required placeholder="example 7" min="1" max="12"/></label>
+            <label for="Day">Enter the Day you were born: <input id="Day" name="Day" type="number" required placeholder="example 7" min="1" max="31"/></label>
+            </fieldset>
+            <fieldset class="gender">
+                <p>What's your gender?</p>
+                <label for="Male"><input id="Male" type="radio" name="Gender"  /> Male</label>
+                <label for="Female"><input id="Female" type="radio" name="Gender"  /> Female</label>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
 
       </div>
       <div class="main">
