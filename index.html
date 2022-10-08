@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css" />
-    
+
     <title>Akan's Name Generator</title>
   </head>
   <body>
@@ -25,7 +25,12 @@
         </p>
       </div>
       <div>
-       <p> Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.  <br> Here are Ghanian day names.</p>
+        <p>
+          Akan names are derived from Ghanian culture. Frequently in Ghana,
+          children are given their first name as a 'day name' which corresponds
+          to the day in the week they were born. <br />
+          Here are Ghanian day names.
+        </p>
       </div>
       <div>
         <p>
@@ -43,7 +48,7 @@
                 required
                 placeholder="example 1990"
             /></label>
-            <label for="Month"
+            <label for="month"
               >Enter the Month you were born:
               <input
                 id="month"
@@ -51,8 +56,6 @@
                 type="number"
                 required
                 placeholder="example 7"
-                min="1"
-                max="12"
             /></label>
             <label for="Day"
               >Enter the Day you were born:
@@ -62,8 +65,6 @@
                 type="number"
                 required
                 placeholder="example 7"
-                min="1"
-                max="31"
             /></label>
           </fieldset>
           <fieldset class="gender">
@@ -75,7 +76,7 @@
               ><input id="Female" type="radio" name="Gender" /> Female</label
             >
           </fieldset>
-          <input type="submit" value="Submit" onclick="calculateNameOfDay();" />
+          <input type="submit" value="Submit" onclick="akanName();" />
         </form>
       </div>
       <div class="main">
