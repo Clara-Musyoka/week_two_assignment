@@ -37,7 +37,7 @@
           Please fill out this form with the required information to find out
           your Akan Name!
         </p>
-        <form onsubmit="userValidation();">
+        <form name="myform" class="form" onsubmit="validate();">
           <fieldset class="form-elements">
             <label for="year"
               >Enter the year you were born:
@@ -76,8 +76,9 @@
               ><input id="Female" type="radio" name="Gender" /> Female</label
             >
           </fieldset>
-          <input type="submit" value="Submit" onclick="akanName();" />
+          <input type="submit" value="Submit" onclick="findName();" />
         </form>
+        <p id="results"> </p>
       </div>
       <div class="main">
         <div class="card" id="card_one">
