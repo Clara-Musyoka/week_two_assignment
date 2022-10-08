@@ -11,4 +11,7 @@ function userValidation(){
     var month= parseInt(document.getElementById("month").value);
     var day= parseInt(document.getElementById("Day").value);
     var gender = document.getElementsByName("Gender");
+
+     //function call 
+     calculateNameOfDay(century,year,month,day,gender);
 }
