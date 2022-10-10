@@ -34,7 +34,7 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ## Live link
 
-https://clara-musyoka.github.io/week_one_assignment/
+https://clara-musyoka.github.io/week_two_assignment/
 
 ## Contact information for Author
 
