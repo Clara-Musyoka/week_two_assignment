@@ -52,3 +52,18 @@ form {
   margin: 1em auto;
   text-align: center;
 }
+.lists{
+  display: flex;
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding: 0em;
+  
+}
+#female-list{
+  margin-left: 4em;
+}
+#male-list{
+  margin-right: 0.5em;
+}
