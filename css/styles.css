@@ -67,3 +67,16 @@ form {
 #male-list{
   margin-right: 0.5em;
 }
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: rgb(67, 7, 67);
+}
+
+
+a:hover {
+  color: red;
+}
+
