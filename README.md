@@ -26,13 +26,14 @@ A web application that takes a user's birthday and calculates the day of the wee
 
 ## BDD
 
--  As a user, I would like to;
-- See a  small description of what the application does on the landing page.
-- Enter my birthday through a form 
+- As a user, I would like to;
+- See a small description of what the application does on the landing page.
+- Enter my birthday through a form
 - Choose what gender I am.
 - Click the submit button to see what my Akan name would be
 
 ## Live link
+
 https://clara-musyoka.github.io/week_one_assignment/
 
 ## Contact information for Author

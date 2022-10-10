@@ -11,7 +11,6 @@
   text-align: center;
   font-weight: bolder;
   background-color: darkgray;
-
 }
 
 label {
@@ -27,6 +26,7 @@ input[type="submit"] {
   background-color: #3b3b4f;
   border-color: white;
   min-width: 300px;
+  color: white;
 }
 
 form {
@@ -52,19 +52,18 @@ form {
   margin: 1em auto;
   text-align: center;
 }
-.lists{
+.lists {
   display: flex;
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
   margin: 0 auto;
   padding: 0em;
-  
 }
-#female-list{
+#female-list {
   margin-left: 4em;
 }
-#male-list{
+#male-list {
   margin-right: 0.5em;
 }
 a:link {
@@ -75,11 +74,10 @@ a:visited {
   color: rgb(67, 7, 67);
 }
 
-
 a:hover {
   color: red;
 }
 
-body{
+body {
   background-color: antiquewhite;
 }
